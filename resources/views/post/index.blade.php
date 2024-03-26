@@ -29,7 +29,7 @@
 
   </div>
   @empty
-    <h2 class="text-center text-secondary p-4">Belum ada postingan...</h2>
+    <h2 class="text-center text-secondary p-4">Not Found....</h2>
   @endforelse
   <div class="d-flex justify-content-center my-5">
     {{ $posts->onEachSide(1)->links() }}
